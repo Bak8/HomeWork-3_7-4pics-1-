@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Bmw_318i_E30_M40_1991_(51113700).jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

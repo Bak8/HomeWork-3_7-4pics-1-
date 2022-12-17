@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FDBE0BB2945CD6A009620B5 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDBE0BA2945CD6A009620B5 /* Models.swift */; };
 		6FF0857629422A9800501F5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0857529422A9800501F5E /* AppDelegate.swift */; };
 		6FF0857829422A9800501F5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0857729422A9800501F5E /* SceneDelegate.swift */; };
 		6FF0857A29422A9800501F5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0857929422A9800501F5E /* ViewController.swift */; };
 		6FF0857D29422A9800501F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF0857B29422A9800501F5E /* Main.storyboard */; };
 		6FF0857F29422A9A00501F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF0857E29422A9A00501F5E /* Assets.xcassets */; };
 		6FF0858229422A9A00501F5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF0858029422A9A00501F5E /* LaunchScreen.storyboard */; };
+		6FF0858A29422EA700501F5E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0858929422EA700501F5E /* MainTabBarController.swift */; };
+		6FF0858C2942349800501F5E /* LetterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF0858B2942349800501F5E /* LetterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6FDBE0BA2945CD6A009620B5 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		6FF0857229422A9800501F5E /* Lesson 3_7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson 3_7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF0857529422A9800501F5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FF0857729422A9800501F5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		6FF0857E29422A9A00501F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FF0858129422A9A00501F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FF0858329422A9A00501F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF0858929422EA700501F5E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		6FF0858B2942349800501F5E /* LetterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				6FF0857529422A9800501F5E /* AppDelegate.swift */,
 				6FF0857729422A9800501F5E /* SceneDelegate.swift */,
 				6FF0857929422A9800501F5E /* ViewController.swift */,
+				6FDBE0BA2945CD6A009620B5 /* Models.swift */,
 				6FF0857B29422A9800501F5E /* Main.storyboard */,
+				6FF0858B2942349800501F5E /* LetterCell.swift */,
 				6FF0857E29422A9A00501F5E /* Assets.xcassets */,
 				6FF0858029422A9A00501F5E /* LaunchScreen.storyboard */,
 				6FF0858329422A9A00501F5E /* Info.plist */,
+				6FF0858929422EA700501F5E /* MainTabBarController.swift */,
 			);
 			path = "Lesson 3_7";
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FF0858C2942349800501F5E /* LetterCell.swift in Sources */,
 				6FF0857A29422A9800501F5E /* ViewController.swift in Sources */,
 				6FF0857629422A9800501F5E /* AppDelegate.swift in Sources */,
+				6FDBE0BB2945CD6A009620B5 /* Models.swift in Sources */,
+				6FF0858A29422EA700501F5E /* MainTabBarController.swift in Sources */,
 				6FF0857829422A9800501F5E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
